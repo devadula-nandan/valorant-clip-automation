@@ -20,7 +20,7 @@ echo Waiting for Valorant to start. If it doesn't, try running it manually...
 
 :WAIT_START
 tasklist | find /I "VALORANT.exe" >nul
-if xerrorlevel 1 (
+if errorlevel 1 (
     timeout /t 5 >nul
     goto WAIT_START
 )
