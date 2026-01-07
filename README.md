@@ -36,7 +36,7 @@ PC shuts down (optional)
 - Google YouTube Data API credentials
 
 Python packages
-`pip install google-api-python-client google-auth-oauthlib send2trash`
+`pip install google-api-python-client google-auth-oauthlib`
 
 ## Setup Guide
 ### Configure to run at Windows Startup
